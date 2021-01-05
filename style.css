@@ -1,0 +1,40 @@
+body {
+    margin-top: 10px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    background-color: rgba(200, 235, 147, 0.212);
+    box-sizing: border-box;
+}
+
+.animals {
+    color: red;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+.diving {
+    color: blue;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: blueviolet;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
