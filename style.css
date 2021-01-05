@@ -25,6 +25,7 @@ body {
 
 .boxes {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -33,6 +34,18 @@ body {
     height: 100px;
     color: black;
     background: blueviolet;
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-2 {
+    width: 100px;
+    height: 100px;
+    color: black;
+    background: blue;
+    flex: 1;
     display: flex;
     margin: 20px;
     justify-content: center;
